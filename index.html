@@ -1,0 +1,48 @@
+<html>
+<head>
+
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <title>Pagina di accesso</title>
+</head>
+<body background="accesso1.jpg">
+
+    <div id="titolo">
+    <h1 align="center">Pagina di accesso</h1>
+    </div>
+
+<div id="centro">
+    <form align="center" action="autenticazione.php" method="POST">
+        <strong>
+
+    <div id="coloreusername">
+
+        <label  for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+    </div>   
+    
+    <div id="colorepassword">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+    </div>    
+
+    <div id="coloreruolo">
+
+        <label for="ruolo">Ruolo:</label>
+        <select id="ruolo" name="ruolo">
+            <option value="segretaria">Segretaria</option>
+            <option value="docente">Docente</option>
+            <option value="amministratore">Amministratore</option>
+        </select><br><br>
+
+    </div>  
+      
+        <input type="submit" value="Accedi">
+    </form>
+ </strong>
+</div>
+
+</body>
+</html>
